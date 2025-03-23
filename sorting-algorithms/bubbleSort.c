@@ -19,7 +19,7 @@ void bubbleSort(int array[], int size){
 
 int main() {
     int array[] = {5, 2, 9, 1, 5, 6};
-    //array's lenght
+    //array's length
     int size = sizeof(array) / sizeof(array[0]);
     bubbleSort(array, size);
 
