@@ -1,1 +1,9 @@
+# Ignorer les fichiers exécutables
+*.exe
+
+# Ignorer les fichiers de configuration de VS Code
 .vscode/
+
+# Ignorer les fichiers de compilation
+*.o
+*.out
