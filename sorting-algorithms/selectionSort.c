@@ -2,7 +2,6 @@
 
 void selectionSort(double tab[], int size) {
     for (int i = 0; i < size - 1; i++) {
-        
         int minIndex = i;
         for (int j = i + 1; j < size; j++) {
             if (tab[j] < tab[minIndex]) {
