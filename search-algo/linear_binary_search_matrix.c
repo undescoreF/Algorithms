@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int linear_search_matrix(int n,int m, int tab[n][m], int element){
- //linear search on matrix
+ //linear search in matrix
  for(int i=0;i<n;i++){
     for(int j=0; j<m;j++){
         if(tab[i][j]==element) {
@@ -16,7 +16,7 @@ int binary_search_matrix(int n,int m, int tab[n][m], int element) {
     int left = 0;                         
     int right = n * m - 1;         
     
-    // binary search on matrix
+    // binary search in matrix
     while (left <= right) {
         int mid = left + (right - left) / 2;  
         
